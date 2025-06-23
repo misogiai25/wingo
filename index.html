@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WinGo Predictor</title>
+</head>
+<body>
+  <h1>🔮 WinGo Predictor</h1>
+  <p><strong>Prediction:</strong> {{ prediction }}</p>
+  <h3>Last 50 Results</h3>
+  <ul>
+    {% for num in results %}
+      <li>{{ num }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
